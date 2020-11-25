@@ -1,2 +1,18 @@
 server:
   port: 8888
+spring:
+  application:
+    name: config
+  profiles:
+    active: dev
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/pengcs/springcloud.git #配置git仓库地址
+          searchPaths: /Lesson9 #配置仓库路径
+          label: main #配置仓库的分支
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
