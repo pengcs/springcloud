@@ -1,5 +1,10 @@
 server:
-  port: 8763
+  port: 8764
 spring:
   application:
     name: eurekaclient
+management:
+  endpoints:
+    web:
+      exposure:  #Spring Boot 2.0 以后，actuator 默认只开启 health 和 info 端点，要使用 refresh 端点需要通过 management 指定。
+        include: refresh,health,info

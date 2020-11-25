@@ -4,7 +4,7 @@ spring:
   application:
     name: config
   profiles:
-    active: dev
+    active: dev    #http://localhost:8888/config/dev/main 检测是否成功
   cloud:
     config:
       server:
