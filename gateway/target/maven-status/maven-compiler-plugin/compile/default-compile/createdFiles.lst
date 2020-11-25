@@ -1,4 +1,0 @@
-com\lynn\gateway\ErrorHandlerConfiguration.class
-com\lynn\gateway\JsonExceptionHandler.class
-com\lynn\Application.class
-com\lynn\gateway\ApiGlobalFilter.class
