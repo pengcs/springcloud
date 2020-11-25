@@ -2,7 +2,7 @@ spring:
   cloud:
     config:
       name: eurekaclient
-      label: master
+      label: main
       discovery:
         enabled: true
         serviceId: config
